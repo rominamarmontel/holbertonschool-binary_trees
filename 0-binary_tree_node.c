@@ -5,7 +5,7 @@
  *binary_tree_node -function that creates a binary tree node
  *@parent:  Pointer to the parent of the node to create
  *@value: Value of the new node ,The value to store into the new node.
- *Return: NULL if failure occured or parent is null
+ *Return: NULL if failure occured or parent is null.
  *Otherwise - a pointer to the new node.
  */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)

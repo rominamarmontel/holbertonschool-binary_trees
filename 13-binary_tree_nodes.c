@@ -8,8 +8,8 @@
  */
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
-    if (tree == NULL || (tree->left == NULL && tree->right == NULL)) // there is no children or no node>pas de branche
-        return (0);
-    else // there is one or two children>il y a des branche
-        return (binary_tree_nodes(tree->left) + 1 + binary_tree_nodes(tree->right));
+	if (tree == NULL || (tree->left == NULL && tree->right == NULL))
+		return (0);
+	else
+		return (binary_tree_nodes(tree->left) + 1 + binary_tree_nodes(tree->right));
 }
